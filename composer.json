@@ -1,0 +1,18 @@
+{
+    "name": "pmvc-plugin/lucency",
+    "description": "PMVC Growth Hacking",
+    "type": "library",
+    "homepage": "https://github.com/pmvc/pmvc",
+    "keywords": ["lucency", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "pmvc/pmvc": "*"
+    },
+    "minimum-stability": "dev"
+}
