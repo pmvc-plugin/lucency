@@ -14,12 +14,12 @@ class lucency extends \PMVC\PlugIn
             'attach',
             [ 
                 $this,
-                Event\B4_PROCESS_VIEW,
+                Event\WILL_PROCESS_VIEW,
             ]
         );
     }
 
-    public function onB4ProcessView($subject)
+    public function onWillProcessView($subject)
     {
         $subject->detach($this);
         $penv = \PMVC\plug('getenv');
